@@ -17,7 +17,7 @@ header {
 .box {
     display: inline-block;
     text-align: center;
-    width: 31%;
+    width: 32%;
     vertical-align: top;
 
 }
@@ -139,4 +139,14 @@ footer img {
 footer .footerContent {
     height: 300px;
     background-color: #F9E7DC;
+}
+
+
+@media screen and (max-width:868px){
+    .textDiv{
+        width: 100%;
+    }
+    .imageDiv{
+        width: 100%;
+    }
 }
